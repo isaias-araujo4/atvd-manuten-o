@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>erro 1 concertado</title>
+</head>
+
+<body>
+    <div class="central">
+        <h1>Calculadora</h1>
+        <input type="number" placeholder="Digite um número" id="n1">
+        <select id="operador">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="number" placeholder="Digite um número" id="n2">
+        <button id="btn-calcular">Calcular</button>
+    </div>
+
+    <div class="box-form">
+        <h1>Formulário de correção</h1>
+
+        <form id="form">
+            <label for="date">Data da Manutenção:</label>
+            <input type="date" id="data" required>
+
+            <label for="error-type">Tipo de Manutenção:</label>
+            <input type="text" id="tipo-erro"required>
+
+            <label for="description">Descrição da Manutenção:</label>
+            <textarea id="descricao" required></textarea>
+
+            <label for="responsible">Responsável:</label>
+            <input type="text" id="responsavel" required>
+
+            <button type="button" id="btn-gerar">Gerar Relatório</button>
+        </form>
+
+    </div>
+
+    <script src="js/erro1.js"></script>
+    <script src="js/erro2.js"></script>
+</body>
+
+</html>
